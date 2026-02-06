@@ -32,4 +32,4 @@ Vérification des interfaces et des IP :
 
 Vérification de la route par défaut :
 
-![](pts/ipA.png)
+![](pts/Screenshot 2026-02-06 222603.png)
