@@ -64,3 +64,12 @@ Devices → USB → (sélectionner le téléphone)
 
 Vérification Android Debug Bridge (ADB) dans Mobexler :
 ![](pts/Adb1.png)
+
+Résultat attendu : le téléphone apparaît en device.
+
+Dépannage rapide :
+
+unauthorized → accepter la popup RSA sur le téléphone
+
+rien n’apparaît → vérifier USB dans VirtualBox puis :
+![](pts/Adb2.png)
