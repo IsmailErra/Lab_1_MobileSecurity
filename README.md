@@ -22,3 +22,10 @@ Connexion effectuée avec le mot de passe : mobexler.
 Si un nom d’utilisateur était demandé, essai avec mobexler ou l’utilisateur affiché à l’écran.
 
 Résultat : accès au bureau ou au terminal.
+
+
+Étape 4 — Vérification du réseau (tests)
+
+Vérification des interfaces et des IP :
+
+![](pts/ipA.png)
