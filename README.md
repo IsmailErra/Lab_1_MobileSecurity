@@ -11,3 +11,14 @@ Résultat : le fichier est présent et prêt pour l’import :
 ![Étape 1](pts/1.png)
 
 ![](pts/aftrStp.png)
+
+
+Étape 3 — Premier démarrage + connexion
+
+Mobexler a été démarré.
+
+Connexion effectuée avec le mot de passe : mobexler.
+
+Si un nom d’utilisateur était demandé, essai avec mobexler ou l’utilisateur affiché à l’écran.
+
+Résultat : accès au bureau ou au terminal.
