@@ -7,4 +7,4 @@ Le fichier Mobexler.ova a été téléchargé depuis le lien officiel (Google Dr
 (Optionnel) Le SHA256 a été calculé et comparé à la valeur fournie.
 
 Résultat : le fichier est présent et prêt pour l’import.
-![Étape 1](pts/1.jpeg)
+![Étape 1](pts/1.png)
