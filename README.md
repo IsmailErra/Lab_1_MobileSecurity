@@ -29,3 +29,7 @@ Résultat : accès au bureau ou au terminal.
 Vérification des interfaces et des IP :
 
 ![](pts/ipA.png)
+
+Vérification de la route par défaut :
+
+![](pts/ipA.png)
