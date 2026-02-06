@@ -53,3 +53,14 @@ Résultat : snapshot visible (restauration possible si besoin).
 Capture à ajouter : fenêtre Snapshots avec CLEAN_BASELINE_TP1.
 
 ![](pts/snapShot.png)
+
+Étape 6 — Préparer Android (Option A : USB, VirtualBox)
+
+USB debugging a été activé sur le téléphone :
+Paramètres → À propos → “Build number” x7 → Developer options → USB debugging ON
+
+Le téléphone a été connecté à la VM via VirtualBox :
+Devices → USB → (sélectionner le téléphone)
+
+Vérification Android Debug Bridge (ADB) dans Mobexler :
+![](pts/Adb1.png)
