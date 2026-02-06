@@ -35,3 +35,6 @@ Vérification de la route par défaut :
 ![](pts/iproute.png)
 
 Test de connexion Internet (IP + DNS) :
+
+![](pts/tst.png)
+
