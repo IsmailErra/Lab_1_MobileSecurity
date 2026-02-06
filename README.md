@@ -52,4 +52,4 @@ Résultat : snapshot visible (restauration possible si besoin).
 
 Capture à ajouter : fenêtre Snapshots avec CLEAN_BASELINE_TP1.
 
-![](pts/snapshot.png)
+![](pts/snapShot.png)
