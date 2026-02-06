@@ -38,4 +38,18 @@ Test de connexion Internet (IP + DNS) :
 
 ![](pts/Tst.png)
 
+Étape 5 — Snapshot “CLEAN” (VirtualBox)
 
+Un snapshot a été créé après vérification du bon fonctionnement de Mobexler (boot + réseau OK).
+
+Dans VirtualBox : VM → Snapshots → Take
+
+Nom du snapshot : CLEAN_BASELINE_TP1
+
+Description : Import OK, NAT+HostOnly OK, boot OK, prêt ADB
+
+Résultat : snapshot visible (restauration possible si besoin).
+
+Capture à ajouter : fenêtre Snapshots avec CLEAN_BASELINE_TP1.
+
+![](pts/snapshot.png)
