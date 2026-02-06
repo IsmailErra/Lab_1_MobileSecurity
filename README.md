@@ -9,3 +9,5 @@ Le fichier Mobexler.ova a été téléchargé depuis le lien officiel (Google Dr
 Résultat : le fichier est présent et prêt pour l’import :
 
 ![Étape 1](pts/1.png)
+
+![](pts/aftrStp.png)
