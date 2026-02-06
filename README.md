@@ -2,11 +2,11 @@
 
 ---
 
-## **Étape 1 — Récupération de Mobexler (OVA)**
+## **Étape 1 — Récupération de l’OVA Mobexler**
 
-- L’image **Mobexler.ova** a été récupérée depuis la source officielle (Google Drive).
-- *(Facultatif)* Un contrôle **SHA256** a été fait quand la valeur était disponible.
-- **OK :** le fichier est bien là et prêt à être importé.
+- L’image **Mobexler.ova** a été récupérée depuis la source officielle (:contentReference[oaicite:0]{index=0}).
+- (Facultatif) Une vérification **SHA256** a été effectuée si la valeur de référence était disponible.
+- **Validation :** fichier présent, prêt pour l’import.
 
 ![Étape 1](pts/1.png)
 
@@ -14,64 +14,64 @@
 
 ---
 
-## **Étape 3 — Démarrage initial + ouverture de session**
+## **Étape 3 — Lancement et connexion**
 
-- Mobexler a été lancé pour la première fois.
-- Accès effectué avec le mot de passe : **mobexler**.
-- Si un identifiant était demandé : test avec **mobexler** ou l’utilisateur affiché sur l’écran.
-- **OK :** arrivée sur le **bureau** ou accès au **terminal**.
+- Démarrage de Mobexler.
+- Authentification réalisée avec le mot de passe : **mobexler**.
+- Si un identifiant était demandé : essai avec **mobexler** ou avec l’utilisateur affiché à l’écran.
+- **Validation :** accès obtenu au **bureau** ou au **terminal**.
 
 ---
 
-## **Étape 4 — Contrôle réseau (vérification rapide)**
+## **Étape 4 — Contrôle réseau (check rapide)**
 
-### **1) Interfaces + adresses IP**
-Objectif : repérer l’interface **NAT** et l’interface **Host-Only**.
+### **Interfaces + adresses**
+Objectif : vérifier que les interfaces attendues sont bien là (NAT / Host-Only).
 
 ![](pts/ipA.png)
 
-### **2) Route par défaut**
-Objectif : vérifier qu’une passerelle par défaut existe (sortie Internet via NAT).
+### **Route par défaut**
+Objectif : confirmer la présence d’une passerelle (sortie Internet).
 
 ![](pts/iproute.png)
 
-### **3) Test Internet (IP puis DNS)**
-Objectif : valider la connectivité + la résolution de noms.
+### **Accès Internet (IP + nom de domaine)**
+Objectif : valider la connectivité et la résolution DNS.
 
 ![](pts/Tst.png)
 
-- **OK attendu :** ping vers une IP + ping vers un nom de domaine.
-
 ---
 
-## **Étape 5 — Snapshot de base “CLEAN” (VirtualBox)**
+## **Étape 5 — Snapshot de référence “CLEAN” (VirtualBox)**
 
-- Un snapshot a été enregistré après validation du démarrage et du réseau.
-- Chemin : **VirtualBox → VM → Snapshots → Take**
+- Après vérification du boot et du réseau, création d’un snapshot de base.
+- Menu : :contentReference[oaicite:1]{index=1} → **VM → Snapshots → Take**
 - Nom : **CLEAN_BASELINE_TP1**
 - Description : **Import OK, NAT+HostOnly OK, boot OK, prêt ADB**
-- **OK :** le snapshot apparaît dans la liste (restauration possible si besoin).
+- **Validation :** snapshot visible (restauration possible en cas de besoin).
 
 ![](pts/snapShot.png)
 
 ---
 
-## **Étape 6 — Préparation Android (USB sur VirtualBox)**
+## **Étape 6 — Préparation Android (USB via VirtualBox)**
 
-### **1) Activer le mode développeur + USB debugging**
+### **1) Activer USB debugging**
 - Paramètres → À propos → **Build number x7**
 - Options développeur → **USB debugging ON**
 
-### **2) Passer l’USB à la VM**
+### **2) Connecter l’USB à la VM**
 - VirtualBox : **Devices → USB → sélectionner le téléphone**
 
-### **3) Vérifier la détection ADB**
+### **3) Vérifier ADB**
+Contrôle de :contentReference[oaicite:2]{index=2} dans Mobexler :
+
 ![](pts/Adb1.png)
 
-- **OK attendu :** le téléphone est listé en **device**.
+- **Attendu :** le téléphone apparaît en **device**.
 
-### **Dépannage**
+### **En cas de souci**
 - **unauthorized** : accepter la demande RSA sur le téléphone
-- si rien n’apparaît : vérifier USB puis relancer ADB :
+- si rien n’apparaît : vérifier l’USB puis relancer ADB
 
 ![](pts/Adb2.png)
