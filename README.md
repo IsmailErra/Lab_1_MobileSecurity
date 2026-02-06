@@ -36,5 +36,6 @@ Vérification de la route par défaut :
 
 Test de connexion Internet (IP + DNS) :
 
-![](pts/tst.png)
+![](pts/Tst.png)
+
 
