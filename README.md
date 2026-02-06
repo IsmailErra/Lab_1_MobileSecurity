@@ -33,3 +33,5 @@ Vérification des interfaces et des IP :
 Vérification de la route par défaut :
 
 ![](pts/iproute.png)
+
+Test de connexion Internet (IP + DNS) :
